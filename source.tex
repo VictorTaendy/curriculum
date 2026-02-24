@@ -1,0 +1,89 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,top=1.5cm,right=2cm,bottom=1.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\pagenumbering{gobble}
+
+\definecolor{sectiontitlecolor}{HTML}{008080}
+
+% Configuração de títulos de seção (REMOVER INDENTAÇÃO)
+\titleformat{\section}
+  {\color{sectiontitlecolor}\normalfont\Large\bfseries\hangindent=0pt\hangafter=1}
+  {}{0pt}{}
+
+\titleformat{\subsection}
+  {\color{sectiontitlecolor}\normalfont\large\bfseries\hangindent=0pt\hangafter=1}
+  {}{0pt}{}
+
+\renewcommand{\labelitemi}{•}
+
+\begin{document}
+
+\noindent
+\begin{tabular}{@{}p{0.5\textwidth}p{0.5\textwidth}@{}}
+    \parbox[t]{0.5\textwidth}{\raggedright\Huge \color{sectiontitlecolor}\textbf{Victor Taendy Sousa Emerenciano}} &
+    \parbox[t]{0.5\textwidth}{\raggedleft
+        São Paulo - SP \\
+        (11) 9 5377-5093 \\
+        \href{mailto:victor338.flow@gmail.com}{\color{black}victor338.flow@gmail.com} \\
+        \href{https://www.linkedin.com/in/victor-taendy/}{\color{black}https://www.linkedin.com/in/victor-taendy/}
+    }
+\end{tabular}
+\vspace{0.3cm}
+
+Cientista de Dados com sólida experiência em desenvolvimento de soluções baseadas em aprendizado de máquina, processamento de imagens e IA generativa. Com foco na entrega de resultados mensuráveis e impacto direto nos processos de negócio. \\
+\hrule
+
+\section{Habilidades}
+Python, Pandas, Scikit-Learn, TensorFlow, Pytorch | MS SQL Server, Hadoop Hive, AWS Athena, SageMaker Studio | OpenCV, NLTK, SpaCy, XGBoost, LightGBM | Git, GitHub | Análise de dados \\
+\hrule
+
+\section{Experiência}
+
+\subsection{2023 – 2025 Cientista de Dados Pleno – Itaú Unibanco}
+Monitoramento de Ambientes com Imagens
+\begin{itemize}[label=•]
+	\item Implementação de modelos de detecção de entidades (YOLO) para identificar presença humana em ambientes específicos, utilizando soluções da Ultralytics e OpenCV.
+	\item Desenvolvimento de modelo de classificação com PyTorch para atuar como filtro preliminar, reduzindo a carga computacional dos modelos de detecção.
+\end{itemize}
+
+Priorização de Operações para Quality Assurance
+\begin{itemize}[label=•]
+	\item Desenvolvimento de modelo de classificação utilizando Naive Bayes para melhorar a seleção de operações críticas para análise, superando a abordagem de amostragem aleatória em 0,5 ponto percentual na métrica Average Precision.
+	\item Criação de visualizações para comunicar efetivamente os ganhos do modelo em termos de recall e precisão para stakeholders não técnicos.
+\end{itemize}
+
+Extração de informações não padronizadas com IA generativa
+\begin{itemize}[label=•]
+	\item Desenvolvi uma solução baseada em IA generativa para extrair informações críticas de contratos societários, caracterizados por linguagem natural e estrutura não padronizada.
+	\item Superando as limitações dos métodos tradicionais de detecção de entidades, resultando em maior agilidade na atualização de cenários empresariais e eficiência operacional.
+\end{itemize}
+
+\subsection{2021 – 2022 Cientista de Dados Junior – Itaú Unibanco}
+Classificação de alto desbalanceio para operações suspeitas
+\begin{itemize}[label=•]
+	\item Desenvolvi um modelo de ranqueamento (XGBoost “learn-to-rank”) para priorizar operações suspeitas em um cenário com alto desbalanceamento de classes, elevando a métrica de 5\% com técnicas anteriores baseadas em Random Forest para 11\% com o modelo atual.
+	\item Essa melhoria permitiu uma triagem mais eficiente das transações, mantendo o custo com fraudes igual mesmo com um aumento substancial de tentativas de ataque.
+\end{itemize}
+
+\vspace{0.3cm}
+\hrule
+
+\section{Formação}
+\begin{tabular}{@{}ll@{}}
+    2014 – 2020: & Bacharelado em Sistemas de Informação \\
+                          & Escola de Artes Ciências e Humanidades da Universidade de São Paulo
+\end{tabular}
+
+\end{document}

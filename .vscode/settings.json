@@ -1,0 +1,27 @@
+{
+  "latex-workshop.latex.jobname": "curriculum",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-jobname",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "-jobname=curriculum",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (curriculum.pdf)",
+      "tools": [
+        "latexmk-jobname"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "first"
+}
