@@ -10,7 +10,7 @@
         "-file-line-error",
         "-pdf",
         "-outdir=%OUTDIR%",
-        "-jobname=curriculum",
+        "-jobname=curriculum-Victor-Taendy",
         "%DOC%"
       ]
     }
